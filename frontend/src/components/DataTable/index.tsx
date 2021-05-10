@@ -5,10 +5,10 @@ const DataTable = () => { //função lambda (anônima)
                 <thead>
                     <tr>
                         <th>Data</th>
-                        <th>Vendedor</th>
-                        <th>Clientes visitados</th>
-                        <th>Negócios fechados</th>
-                        <th>Valor</th>
+                        <th>Técnico</th>
+                        <th>Total de chamados</th>
+                        <th>Chamados fechados</th>
+                        <th>Valor R$</th>
                     </tr>
                 </thead>
                 <tbody>
