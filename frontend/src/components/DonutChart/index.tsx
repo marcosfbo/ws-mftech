@@ -9,7 +9,6 @@ type ChartData = {
     series: number[];
 }
 
-
 const DonutChart = () => { //função lambda (anônima)
 
     const [chartData, setChartData] = useState<ChartData>({ labels: [], series: [] });
