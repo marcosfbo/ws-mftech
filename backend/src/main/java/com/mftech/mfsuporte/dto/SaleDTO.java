@@ -79,7 +79,7 @@ public class SaleDTO {
 		return seller;
 	}
 
-	public void setSaller(SellerDTO saller) {
-		this.seller = saller;
+	public void setSaller(SellerDTO seller) {
+		this.seller = seller;
 	}
 }
