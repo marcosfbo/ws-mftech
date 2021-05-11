@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "baseUrl": "./src",
+    "baseUrl": "./src",//elemento para orientar o type script a importar os arquivos contidos na pasta src.
     "target": "es5",
     "lib": [
       "dom",

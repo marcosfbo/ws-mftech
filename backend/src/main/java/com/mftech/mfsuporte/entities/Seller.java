@@ -51,6 +51,4 @@ public class Seller { //vendedor
 		this.name = name;
 	}
 	
-	
-
 }
