@@ -57,5 +57,5 @@ const DataTable = () => {
         </>
     );
 }
-//<td>{item.seller.name}</td> descobrir onde está definido saller para alterar.
+
 export default DataTable;
