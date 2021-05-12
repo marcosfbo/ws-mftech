@@ -5,12 +5,12 @@ type Props = {
     onPageChance: Function;
 }
 
-const Pagination = ({ page, onPageChance } : Props) => {
+const Pagination = ({ page, onPageChance }: Props) => {
 
     return (
-        <div className="row d-flex justify-content-center">
+        <div>
             <nav>
-                <ul className="pagination">
+                <ul className="pagination justify-content-center">
                     <li className={`page-item ${page.first ? 'disabled' : ''}`}>
                         <button className="page-link" onClick={() => onPageChance(page.number - 1)}>Anterior</button>
                     </li>
@@ -25,5 +25,5 @@ const Pagination = ({ page, onPageChance } : Props) => {
         </div>
     )
 }
-
+//<div className="row d-flex justify-content-center">
 export default Pagination;
